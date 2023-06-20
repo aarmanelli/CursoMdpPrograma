@@ -1,0 +1,17 @@
+.scroll{
+    overflow: auto;
+    height: 200px;
+}
+::-webkit-scrollbar{
+    width: 17px;
+}
+::-webkit-scrollbar-track{
+    /*cambiar el color de fondo de la barra de desplazamiento o modificarle alguna propiedad*/
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    /* modificar el cosito*/
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid red;
+}
